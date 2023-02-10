@@ -1,3 +1,4 @@
 let scores = [50,60,70,80,90];
-console.log(scores[2]);
-console.log(scores.length);
+for (let i = 0; i < 5; i++) {
+    console.log(`得点は${scores[i]}点です`)
+}
